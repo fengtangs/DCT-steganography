@@ -27,7 +27,7 @@ class DCT():
         padded_image    = cv2.resize(raw_cover_image, valid_dim)
         cover_image_f32 = np.float32(padded_image)
         # cover_image_YCC = img.YCC_Image(cv2.cvtColor(cover_image_f32, cv2.COLOR_BGR2YCrCb))
-        cover_image_YCC = img.YCC_Image(cv2.cvtColor(cover_image_f32, cv2.COLOR_BGR2RGB))
+        cover_image_YCC =   img.YCC_Image(cv2.cvtColor(cover_image_f32, cv2.COLOR_BGR2RGB))
         # cover_image_YCC = img.YCC_Image(cover_image_f32)
 
         # Placeholder for holding stego image data

@@ -26,6 +26,7 @@ def zigzag(input):
 
 	#print(vmax ,hmax )
 
+
 	i = 0
 
 	output = np.zeros(( vmax * hmax))

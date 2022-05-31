@@ -2,6 +2,7 @@
 Author: nsf
 cite Mason Edgar
 Image Steganography
+
 '''
 #------ External Libraries ------#
 import bitstring
